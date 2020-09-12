@@ -1,0 +1,379 @@
+/* ここから下に記載していく */
+/* 最初のインデント */
+.sitewidth{
+    max-width: 1366px;
+    margin: auto;
+}
+
+.menubox{
+    display: flex;
+    justify-content: space-between
+}
+
+.menuwords{
+    display: flex;
+
+}
+
+.menubox p{
+    padding: 50px 50px 50px 0px;
+    font-size: 21px;
+    
+}
+
+.mainpic{
+    background:url(..//img/mainbg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    max-width: 1366px;
+
+}
+
+.mainpic p{
+    /* px適当*/
+    font-size: 30px;
+    text-align: center;
+    padding-top: 200px;
+    color: white;
+    font-weight: bold;
+}
+
+.midashi2{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+    color: white 
+}
+
+.maintext{
+    text-align: center
+}
+
+
+.midashi{
+    font-size: 24px;
+    color: #ffd61a;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 60px;
+}
+.midashijap{
+    padding: 30px 0 60px 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+.fourth{
+    padding: 40px 0 40px 0
+}
+
+.text{
+    font-size: 16px;
+}
+
+.maintext{
+    padding: 0px 0px 80px 0px
+}
+
+.imagebox{
+    display: flex;
+    /* justify-content: center; */
+    width: 100%;
+
+}
+.imagebox p{
+    width: 100%;
+}
+
+.date{
+    padding: 30px 0 24px 0;
+}
+
+.newsbox{
+    display: flex;
+   justify-content: center
+}
+.box{
+    width: 300px;
+    padding: 0 30px 0 30px;
+}
+
+.box p{
+    font-size: 14px;
+    padding: auto;
+}
+
+/* MORE */
+.morebox{
+    display: flex;
+    justify-content: center;
+}
+
+
+.more{
+    background-color: #ffd61a;
+    color: antiquewhite;
+    font-size: 18px;
+    text-align: center;
+    background-position: center;
+    height: 37px;
+    width: 300px;
+    padding-top: 23px;
+    margin: 60px;
+    transition: background-color .5s;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s
+    transition: color .5s;
+    transition-property: color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s
+
+}
+
+.more:hover{
+    background-color: blue;
+    color: black;
+    
+}
+
+
+.accessbox{
+    background-color: #fafafa;
+    text-align: center;
+    background-position: center;
+    height: cover;
+    max-width: 1366px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+.accessbox h1{
+    font-size: 21px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.accessbox h2{
+    padding-top: 15px;
+    padding-bottom: 60px;
+}
+
+.gmap{
+    align-items: center;
+}
+
+.accessbox h3{
+    padding-top: 60px;
+}
+
+.accessbox p{
+    padding-top: 30px; 
+}
+
+
+.col-1 {
+    display: inline-block;
+    width: 200px;
+    /* border: solid 1px; */
+    text-align: left;
+}
+.col-2 {
+    display: inline-block;
+    width: 400px;
+    /* border: solid 1px; */
+    text-align: left;
+}
+
+.contactbox{
+    text-align: center;
+    padding: 60px;
+
+}
+
+.contactbox h1{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.contactbox h2{
+    font-size: 18px;
+    padding: 30px;
+}
+
+.contactbox p{
+    padding: 30px;
+}
+
+.memo{
+    padding-bottom: 10px;
+}
+
+.formbox{
+    align-items: center;
+    text-align: center;
+
+}
+
+.name{
+    display: flex;
+    justify-content: center;    
+}
+
+.name p{
+    width: 240px;
+    height: 36px;
+    border-width: 2px;
+    border: 1px;
+    border-style: solid;
+    border-color: #fafafa;
+    text-align: left;
+    backface-visibility: 
+}
+
+.inputbox{
+    width: 328px;
+    height: 36px;
+    text-align: left;
+    border-width: 2px;
+    border: 1px;
+    border-style: solid;
+    border-color: #fafafa;
+}
+.kikkake{
+    display: flex;
+    justify-content: center;    
+}
+
+.kikkake p{
+    width: 240px;
+    height: 36px;
+    border: #fafafa;
+    text-align: left;
+    border-width: 2px;
+    border: 1px;
+    border-style: solid;
+    border-color: #fafafa;
+
+}
+
+.selectbox{
+    width: 328px;
+    height: 36px;
+    text-align: left;
+    border-width: 2px;
+    border: 1px;
+    border-style: solid;
+    border-color: #fafafa;
+}
+
+
+.douki{
+    display: flex;
+    justify-content: center;    
+}
+
+.douki p{
+    width: 240px;
+    height: 36px;
+    border: #fafafa;
+    text-align: left;
+    border-width: 2px;
+    border: 1px;
+    border-style: solid;
+    border-color: #fafafa;
+}
+
+.checkbox{
+    width: 328px;
+    height: cover;
+    border-color: #bfbfbf;
+    text-align: left;
+    border-width: 2px;
+    border: 1px;
+    border-style: solid;
+    border-color: #fafafa;
+    cursor: pointer;
+}
+
+.detail{
+    display: flex;
+    justify-content: center;
+    border-width: 2px;
+    border: 1px;
+    border-style: solid;
+    border-color: #fafafa;    
+}
+
+.detail p{
+    width: 240px;
+    height: 36px;
+    border: #fafafa;
+    text-align: left;
+    border-width: 2px;
+    border: 1px;
+    border-style: solid;
+    border-color: #fafafa;
+}
+
+.shousaitext{
+    width: 328px;
+    height: cover;
+    border-color: #bfbfbf;
+    text-align: left;
+    border-width: 2px;
+    border: 1px;
+    border-style: solid;
+    border-color: #fafafa;
+}
+
+.wh{
+    padding: 12px;
+}
+
+.sendbox{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 140px 0;
+}
+
+
+.send{
+    background-color: #ffd61a;
+    color: antiquewhite;
+    font-size: 18px;
+    text-align: center;
+    background-position: center;
+    height: 37px;
+    width: 300px;
+    padding-top: 23px;
+    margin: 60px;
+    transition: background-color .5s;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s
+    transition: color .5s;
+    transition-property: color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    cursor: pointer;
+}
+.send:hover{
+    background-color: blue;
+    color: black;
+    
+}
+
+.footer{
+    text-align: center;
+    padding: 30px;
+    background: #707070;
+    color: #bfbfbf
+}
